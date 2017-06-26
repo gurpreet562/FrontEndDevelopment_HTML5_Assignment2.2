@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HTML Form
-</title>
+<title>HTML Form</title>
 <style>
-body{
-    font-family:helvetica ,sans-serif;
-	background:grey;
+       body{
+       font-family:helvetica ,sans-serif;
+       background:grey;
 	}
-	
 	fieldset input{
 	border-radius: 5px;
 	padding:15px
@@ -18,7 +16,6 @@ body{
 	width:60%;
 	background:#ddd;
 	margin:auto;
-	
 	border: 5px solid #1F497D;
 	}
 	input[type=text]{
@@ -47,50 +44,46 @@ body{
 	width:120px
 	font-size:18px
 	}
-   .fieldgroup{
-   float: left;
-   width: auto;
-   margin-left: 3em;
-   }
-	
+       .fieldgroup{
+        float: left;
+        width: auto;
+        margin-left: 3em;
+        }	
 	</style>
-	</head>
-	<body>
-	<fieldset>
-	<legend>Your Details:</legend>
-	<form>
-Name: <input type="text" placeholder="name"/required></input><br/><br/>
-Email: <input type="text" placeholder="email" /required></input>
-</form>
-
-	</fieldset>
-	
-	<fieldset>
-	<legend>Your Review:</legend>
-	 How did you hear about us? <select>
-  <option value="google">google</option>
-  <option value="facebook">facebook</option>
-  <option value="friend">friend</option>
-  <option value="newspaper">newspaper</option>
-</select><br/></br>
-  would you visit again?<br/>
-  <div class="fieldgroup">
-<input type="radio" name="choose" value="yes"> Yes<br>
-</div>
-<div class="fieldgroup">
-  <input type="radio" name="choose" value="no"> No<br>
-  </div>
-  <div class="fieldgroup">
-  <input type="radio" name="choose" value="may be"> may be<br/>
-  </div>
-  
-  </br></br>
- Comments:<br/>
- <input type="textarea" name="textarea"/> <br/><br/>
-  <input type="checkbox" name="update" value="Update" checked>Sign me up for email updates <br><br/>
-  <button type="submit">Submit review</button>
-  
-	
-	</fieldset>
-	</body>
-	</html>
+	   </head>
+	        <body>
+	             <fieldset>
+	                    <legend>Your Details:</legend>
+	                     <form>
+                               Name: <input type="text" placeholder="name"/required></input><br/><br/>
+                               Email: <input type="text" placeholder="email" /required></input>
+                              </form>   
+	             </fieldset>
+	             <fieldset>
+	                    <legend>Your Review:</legend>
+			    <form>
+	                       How did you hear about us? <select>
+                               <option value="google">google</option>
+                               <option value="facebook">facebook</option>
+                               <option value="friend">friend</option>
+                               <option value="newspaper">newspaper</option>
+                               </select><br/></br>
+                               would you visit again?<br/>
+                               <div class="fieldgroup">
+                               <input type="radio" name="choose" value="yes"> Yes<br>
+                               </div>
+                               <div class="fieldgroup">
+                               <input type="radio" name="choose" value="no"> No<br>
+                               </div>
+                               <div class="fieldgroup">
+                               <input type="radio" name="choose" value="may be"> may be<br/>
+                               </div>
+                               </br></br>
+                               Comments:<br/>
+                               <input type="textarea" name="textarea"/> <br/><br/>
+                               <input type="checkbox" name="update" value="Update" checked>Sign me up for email updates <br><br/>
+                               <button type="submit">Submit review</button>
+			       </form>
+	              </fieldset>
+	                      </body>
+	                            </html>
