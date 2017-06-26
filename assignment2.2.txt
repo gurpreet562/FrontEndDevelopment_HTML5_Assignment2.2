@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Form
+</title>
+<style>
+body{
+    font-family:helvetica ,sans-serif;
+	background:grey;
+	}
+	
+	fieldset input{
+	border-radius: 5px;
+	padding:15px
+	}
+	fieldset{
+	height:20%;
+	width:60%;
+	background:#ddd;
+	margin:auto;
+	
+	border: 5px solid #1F497D;
+	}
+	input[type=text]{
+	width:25%;
+	padding:8px 20px;
+	margin:8px 0;
+	box-sizing:border-box;
+	border-radius:5px;
+	}
+	input[type=password]{
+	width:25%;
+	padding:12px 20px;
+	margin:8px 0;
+	box-sizing:border-box;
+	border-radius:5px;
+	}
+	label{
+	width:180px;
+	clear:left;
+	text-align:right;
+	padding-right:10px;
+	}
+	button{
+	display:inline-block;
+	border-radius:12px;
+	width:120px
+	font-size:18px
+	}
+   .fieldgroup{
+   float: left;
+   width: auto;
+   margin-left: 3em;
+   }
+	
+	</style>
+	</head>
+	<body>
+	<fieldset>
+	<legend>Your Details:</legend>
+	<form>
+Name: <input type="text" placeholder="name"/required></input><br/><br/>
+Email: <input type="text" placeholder="email" /required></input>
+</form>
+
+	</fieldset>
+	
+	<fieldset>
+	<legend>Your Review:</legend>
+	 How did you hear about us? <select>
+  <option value="google">google</option>
+  <option value="facebook">facebook</option>
+  <option value="friend">friend</option>
+  <option value="newspaper">newspaper</option>
+</select><br/></br>
+  would you visit again?<br/>
+  <div class="fieldgroup">
+<input type="radio" name="choose" value="yes"> Yes<br>
+</div>
+<div class="fieldgroup">
+  <input type="radio" name="choose" value="no"> No<br>
+  </div>
+  <div class="fieldgroup">
+  <input type="radio" name="choose" value="may be"> may be<br/>
+  </div>
+  
+  </br></br>
+ Comments:<br/>
+ <input type="textarea" name="textarea"/> <br/><br/>
+  <input type="checkbox" name="update" value="Update" checked>Sign me up for email updates <br><br/>
+  <button type="submit">Submit review</button>
+  
+	
+	</fieldset>
+	</body>
+	</html>
